@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  background-image: url("skull-machine-robot-4h.jpg");
+   background-size: cover;
+}
+
+.layer {
+  width: 90%;
+  max-width: 1200px;
+  background-color: white;
+  background-image: url("93-938757_75-web-website-background-color.jpg");
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table a {
+  padding: 6px 12px;
+  margin: 0 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  background-color: #DCDCDC;
+}
+
+table a:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table .update-link {
+  background-color: #ff9800;
+}
+
+table .delete-link {
+  background-color: #f44336;
+}
+
+table .add-link {
+  background-color: #2196F3;
+}
+
+/* Add Item and Show All Details Buttons */
+button.f {
+  padding: 12px 25px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-align: center;
+  margin: 10px 0;
+}
+
+button.f:hover {
+  background-color: #45a049;
+}
+
+button.f a {
+  color: white;
+  text-decoration: none;
+}
+
+.ff {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  table th, table td {
+    padding: 10px;
+  }
+
+  button.f {
+    width: 100%;
+  }
+}
